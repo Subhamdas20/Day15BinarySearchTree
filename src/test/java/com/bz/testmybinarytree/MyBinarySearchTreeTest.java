@@ -1,7 +1,6 @@
 package com.bz.testmybinarytree;
 
-import com.bz.testmybinarytree.binarysearchtree.MyBinaryNode;
-import com.bz.testmybinarytree.binarysearchtree.MyBinaryTree;
+import com.bz.binarysearchtree.MyBinaryTree;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.bz.testmybinarytree.binarysearchtree;
+package com.bz.binarysearchtree;
 
 public class MyBinaryTree <T extends Comparable<T>> {
 
