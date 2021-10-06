@@ -27,13 +27,7 @@ public class MyBinaryTree <T extends Comparable<T>> {
     private int getSizeRecursive(MyBinaryNode<T> current) {
         return current == null ? 0 :1 + this.getSizeRecursive(current.left) + this.getSizeRecursive(current.right);
     }
-//    public boolean search(T key){
-//        boolean result = false;
-//        if (root.key == key){
-//             result =true;
-//        }
-//        return result;
-//    }
+
    public boolean search(T key)  {
     root = search_Recursive(root, key);
     if (root!= null)
