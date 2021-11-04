@@ -5,7 +5,7 @@ public class MyBinaryTree <T extends Comparable<T>> {
     private MyBinaryNode<T> root;
 
     public void add(T key) {
-        this.root =this.addRecursively(root , key);
+        root =addRecursively(root , key);
     }
     public MyBinaryNode<T> addRecursively(MyBinaryNode<T> current , T key){
         if(current==null){
